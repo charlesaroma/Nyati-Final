@@ -1,12 +1,5 @@
 import React from 'react'
 import OfferCard from "../../2-Components/Cards/OfferCard";
-// import consultImg from "../../1-Assets/Services/Offer/consult.svg";
-// import editImg from "../../1-Assets/Services/Offer/edit.svg";
-// import equipmentImg from "../../1-Assets/Services/Offer/equipment.svg";
-// import filmImg from "../../1-Assets/Services/Offer/film.svg";
-// import scriptImg from "../../1-Assets/Services/Offer/script.svg";
-// import soundImg from "../../1-Assets/Services/Offer/sound.svg";
-
 import Metadata from '../../1-Assets/data/web_metadata.json'
 
 const obj = Metadata;

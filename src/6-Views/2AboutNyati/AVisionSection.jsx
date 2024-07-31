@@ -1,5 +1,11 @@
 import React from "react";
-import BG1 from "../../1-Assets/Background.png";
+import Metadata from '../../1-Assets/data/web_metadata.json'
+
+const obj = Metadata;
+const result = obj[Object.keys(obj)[4]];
+const Bg=result.content[0].files[1]
+
+console.log(result, Bg)
 
 const AVisionSection = () => {
   return (
@@ -7,7 +13,7 @@ const AVisionSection = () => {
       {/* Background image */}
 
       <img
-        src={BG1}
+        src={Bg}
         alt=""
         className="flex absolute top-0 left-0 object-cover h-full w-full select-none bg-gradient-to-b from-transparent to-secondary-700"
         style={{

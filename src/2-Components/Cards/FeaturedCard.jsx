@@ -1,5 +1,4 @@
 import React from "react";
-import image1 from "../../1-Assets/image 1.png";
 import Buttons from "../Buttons/Buttons";
 import { NavLink } from "react-router-dom";
 import { BASE_URL_LOCAL } from "../../1-Assets/utilities/base-url.config";

@@ -1,6 +1,5 @@
 import React from "react";
 import Metadata from "../../1-Assets/data/web_metadata.json";
-// import bgBack from "../../1-Assets/About/vision.svg";
 
 const obj = Metadata;
 const result = obj[Object.keys(obj)[1]];

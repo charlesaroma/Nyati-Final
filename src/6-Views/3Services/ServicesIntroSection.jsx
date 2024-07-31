@@ -1,5 +1,4 @@
 import React from 'react'
-//import SImage from "../../1-Assets/Services/image8.svg";
 import Metadata from '../../1-Assets/data/web_metadata.json'
 
 const obj = Metadata;

@@ -1,7 +1,12 @@
 import React from "react";
-import image from "../../1-Assets/iPhone 15 Pro Mockup.png";
 import Buttons from "../../2-Components/Buttons/Buttons";
 import { NavLink } from "react-router-dom";
+import Metadata from '../../1-Assets/data/web_metadata.json'
+
+const obj = Metadata;
+const result = obj[Object.keys(obj)[4]];
+const image=result.content[0].files[3]
+
 
 const ADonationSection = () => {
   return (

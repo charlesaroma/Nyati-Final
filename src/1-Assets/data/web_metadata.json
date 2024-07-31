@@ -18,7 +18,18 @@
           "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Universal+Home/images/CTA_%20posters.png?updatedAt=1721135692198",
           "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Universal+Home/images/CTA_%20Download%20app%20image.png?updatedAt=1721135687302",
           "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Universal+Home/images/About_company.png?updatedAt=1721136630803",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Universal+Home/images/Main_background.png?updatedAt=1722392293765",
           "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Universal+Home/images/Main.png?updatedAt=1721136894872"
+        ]
+      },
+      {
+        "type": "Logos",
+        "desc": "SVG of logo",
+        "files": [
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Nyati%20Films%20(About%20Us%20+%20Productions)%20Pages/Logo/Logo.svg?updatedAt=1721137705790",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Universal+Home/Logos/Logo1.svg?updatedAt=1722395100447",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Universal+Home/Logos/Logo%201.png?updatedAt=1722395098026",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Universal+Home/Logos/Logo.png?updatedAt=1722395096776"
         ]
       },
       {
@@ -187,8 +198,9 @@
         "desc": "images",
         "files": [
           "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Nyati%20Films%20(About%20Us%20+%20Productions)%20Pages/Images/Main.png?updatedAt=1721137614774",
-          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Nyati%20Films%20(About%20Us%20+%20Productions)%20Pages/Images/image%2010.png?updatedAt=1721137617561",
-          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Nyati%20Films%20(About%20Us%20+%20Productions)%20Pages/Images/image%209.png?updatedAt=1721137619558"
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Nyati%20Films%20(About%20Us%20+%20Productions)%20Pages/Images/Background.png?updatedAt=1722393350560",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Nyati%20Films%20(About%20Us%20+%20Productions)%20Pages/Images/image%209.png?updatedAt=1721137619558",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Nyati%20Films%20(About%20Us%20+%20Productions)%20Pages/Images/iPhone%2015%20Pro%20Portrait%20Right%20Mockup.png?updatedAt=1722393868234"
         ]
       },
       {

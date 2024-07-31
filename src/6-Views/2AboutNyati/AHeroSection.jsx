@@ -1,13 +1,21 @@
 import React from "react";
-import Bg from "../../1-Assets/Frame 101.png";
-import BgIcon from "../../1-Assets/Logo_About.png";
+//import Bg from "../../1-Assets/Frame 101.png";
+//import BgIcon from "../../1-Assets/Logo_About.png";
 import { Icon } from "@iconify/react";
+import Metadata from '../../1-Assets/data/web_metadata.json'
+
+const obj = Metadata;
+const result = obj[Object.keys(obj)[0]];
+const Bg = result.content[1].files;
+const BgIcon=result.content[2].files
+
+
 
 const AHeroSection = ({ scrollFunc }) => {
   return (
     <div className=" box-border flex flex-col w-full h-screen flex-grow xl:min-h-full lg:h-screen relative overflow-hidden">
       <img
-        src={Bg}
+        src={Bg[3]}
         alt=""
         className="flex absolute top-0 object-cover h-full w-full slect-none bg-gradient-to-b from-transparent to-secondary-700"
         style={{

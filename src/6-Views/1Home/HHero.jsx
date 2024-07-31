@@ -1,10 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Logo2 from "../../1-Assets/Logo1.svg";
-import HeroBg from "../../1-Assets/Hero2.svg";
 import { Icon } from "@iconify/react";
 import styled from "styled-components";
 import Buttons from "../../2-Components/Buttons/Buttons";
+import Metadata from '../../1-Assets/data/web_metadata.json'
+
+const obj = Metadata;
+const result = obj[Object.keys(obj)[0]];
+const HeroBg = result.content[1].files[4];
+const Logo2 = result.content[2].files[1];
+
 
 const HHero = ({ scrollFunc }) => {
   return (

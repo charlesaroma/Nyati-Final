@@ -3,7 +3,6 @@ import ideaImg from "../../1-Assets/Services/Choose/idea.svg";
 import equipmentImg from "../../1-Assets/Services/Choose/equipment.svg";
 import creativeImg from "../../1-Assets/Services/Choose/creative.svg";
 import consultImg from "../../1-Assets/Services/Choose/consult.svg";
-//import bgImages from "../../1-Assets/Services/background.svg";
 import Metadata from '../../1-Assets/data/web_metadata.json'
 
 const obj = Metadata;
