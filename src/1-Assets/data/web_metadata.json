@@ -1,0 +1,267 @@
+[
+  {
+    "directory": "/website-metadata/Universal+Home",
+    "desc": "the conent stored here is for the whole website",
+    "content": [
+      {
+        "type": "Favicon",
+        "desc": "favicons",
+        "files": [
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Universal+Home/Favicon/Favicon%20256.svg?updatedAt=1721135687840",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Universal+Home/Favicon/Favicon%2032.svg?updatedAt=1721135686360"
+        ]
+      },
+      {
+        "type": "Images",
+        "desc": "images",
+        "files": [
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Universal+Home/images/CTA_%20posters.png?updatedAt=1721135692198",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Universal+Home/images/CTA_%20Download%20app%20image.png?updatedAt=1721135687302",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Universal+Home/images/About_company.png?updatedAt=1721136630803",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Universal+Home/images/Main.png?updatedAt=1721136894872"
+        ]
+      },
+      {
+        "type": "AppButtons",
+        "desc": "images",
+        "files": [
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Universal+Home/App%20buttons/App%20Store.svg?updatedAt=1721135670175",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Universal+Home/App%20buttons/Google%20Play.svg?updatedAt=1721135665884"
+        ]
+      }
+    ]
+  },
+  {
+    "directory": "/website-metadata/Services&OngoingProduction(s)",
+    "desc": "the content is for the film page",
+    "content": [
+      {
+        "type": "Hero",
+        "desc": "images for the herosection",
+        "files": [
+         "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Services%20&%20Ongoing%20Production(s)/Images/Desktop%20-%201.png?updatedAt=1722374383556"
+        ]
+      },
+      {
+        "type":"Intro",
+        "desc":"image for the intro",
+        "files":[
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Services%20&%20Ongoing%20Production(s)/Images/Our-services-main.png?updatedAt=1721137186489"
+        ]
+      },
+      {
+        "type": "Projects",
+        "desc": "images for the projects",
+        "files": [
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Services%20&%20Ongoing%20Production(s)/Projects/service%20section-2100.png?updatedAt=1721136177489",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Services%20&%20Ongoing%20Production(s)/Projects/service%20section-Conquer%20or%20Die.png?updatedAt=1721136168710",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Services%20&%20Ongoing%20Production(s)/Projects/service%20section-States%20People.png?updatedAt=1721136155103"
+        ]
+      },
+      {
+        "type": "Images",
+        "desc": "images",
+        "files": [
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Services%20&%20Ongoing%20Production(s)/Images/Background.png?updatedAt=1721137192972",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Services%20&%20Ongoing%20Production(s)/Images/Featured%20Pre-production.png?updatedAt=1721137189555",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Services%20&%20Ongoing%20Production(s)/Images/Our-services-main.png?updatedAt=1721137186489",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Services%20&%20Ongoing%20Production(s)/Images/image%209.png?updatedAt=1721137195732"
+        ]
+      },
+      {
+        "type": "Offering",
+        "desc": "images with services offered",
+        "files": [
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Services%20&%20Ongoing%20Production(s)/Offering/Consultancy.png?updatedAt=1721136185151",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Services%20&%20Ongoing%20Production(s)/Offering/Script%20Development.png?updatedAt=1721136191380",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Services%20&%20Ongoing%20Production(s)/Offering/Film%20Production.png?updatedAt=1721136189410",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Services%20&%20Ongoing%20Production(s)/Offering/Film%20Editing.png?updatedAt=1721136191317",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Services%20&%20Ongoing%20Production(s)/Offering/Sound%20Mastering.png?updatedAt=1721136199150",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Services%20&%20Ongoing%20Production(s)/Offering/Equipment%20Hire.png?updatedAt=1721136186447"
+        ]
+      },
+      {
+        "type":"Vision&Mission",
+        "desc":"image for the vision & mission",
+        "files":[
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Services%20&%20Ongoing%20Production(s)/Images/Background.png?updatedAt=1721137192972"
+        ]
+      },
+      {
+        "type":"Pre-productionimage",
+        "desc":"image for the vision & mission",
+        "files":[
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Services%20&%20Ongoing%20Production(s)/Images/Featured%20Pre-production.png?updatedAt=1721137189555"
+        ]
+      }
+    ]
+  },
+  {
+    "directory:": "/website-metadata/Team",
+    "desc": "image for the team section",
+    "content": [
+  {
+    "type":"Member 1",
+"file": "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Teams/DSCF8275-removebg-preview%201.png?updatedAt=1722382884693"
+},
+{
+  "type":"Member 2",
+"file":"https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Teams/DSCF70000-removebg-preview%201.png?updatedAt=1722382882815"
+},
+{
+  "type":"Member 3",
+"file": "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Teams/DSCF9401-removebg-preview%201.png?updatedAt=1722382884075"
+}
+  ]
+  },
+  {
+    "directory": "/website-metadata/FilmsPage",
+    "desc": "the content is for the film page",
+    "content": [
+      {
+        "type": "slider",
+        "desc": "slider images for the films page",
+        "files": [
+          {
+            "desc": "Slider-1",
+            "imgs": [
+              {
+                "type": "Web",
+                "link": "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Films%20page/slider/Web/Web%20slider-1.png?updatedAt=1721136768498"
+              },
+              {
+                "type": "Mobile",
+                "link": "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Films%20page/slider/Mobile/Mobile%20slider-1.png?updatedAt=1721136754514"
+              }
+            ]
+          },
+          {
+            "desc": "Slider-2",
+            "imgs": [
+              {
+                "type": "Web",
+                "link": "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Films%20page/slider/Web/Web%20slider-2.png?updatedAt=1721136759282"
+              },
+              {
+                "type": "Mobile",
+                "link": "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Films%20page/slider/Mobile/Mobile%20slider-2.png?updatedAt=1721136769080"
+              }
+            ]
+          },
+          {
+            "desc": "Slider-3",
+            "imgs": [
+              {
+                "type": "Web",
+                "link": "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Films%20page/slider/Web/Web%20slider-3.png?updatedAt=1721136771149"
+              },
+              {
+                "type": "Mobile",
+                "link": "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Films%20page/slider/Mobile/Mobile%20slider-3.png?updatedAt=1721136768806"
+              }
+            ]
+          },
+          {
+            "desc": "Slider-4",
+            "imgs": [
+              {
+                "type": "Web",
+                "link": "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Films%20page/slider/Web/Web%20slider-4.png?updatedAt=1721136772190"
+              },
+              {
+                "type": "Mobile",
+                "link": "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Films%20page/slider/Mobile/Web%20slider-4.png?updatedAt=1721136768495"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "directory": "/website-metadata/NyatiFilms(AboutUs+Productions)Pages",
+    "desc": "-",
+    "content": [
+      {
+        "type": "Images",
+        "desc": "images",
+        "files": [
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Nyati%20Films%20(About%20Us%20+%20Productions)%20Pages/Images/Main.png?updatedAt=1721137614774",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Nyati%20Films%20(About%20Us%20+%20Productions)%20Pages/Images/image%2010.png?updatedAt=1721137617561",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Nyati%20Films%20(About%20Us%20+%20Productions)%20Pages/Images/image%209.png?updatedAt=1721137619558"
+        ]
+      },
+      {
+        "type": "Logos",
+        "desc": "SVG of logo",
+        "files": [
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Nyati%20Films%20(About%20Us%20+%20Productions)%20Pages/Logo/Logo.svg?updatedAt=1721137705790"
+        ]
+      }
+    ]
+  },
+  {
+    "directory": "/website-metadata/ConquerorDiePage",
+    "desc": "-",
+    "content": [
+      {
+        "type": "Images",
+        "desc": "images",
+        "files": [
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Conquer%20or%20Die%20page/Images/image%2016.png?updatedAt=1721138561940"
+        ]
+      }
+    ]
+  },
+  {
+    "directory": "/website-metadata/ContactUsPage",
+    "desc": "-",
+    "content": [
+      {
+        "type": "Images",
+        "desc": "images",
+        "files": [
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Contact%20Us%20page/Images/Background.png?updatedAt=1721138700854",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Contact%20Us%20page/Images/Image.png?updatedAt=1721138684394"
+        ]
+      }
+    ]
+  },
+  {
+    "directory": "/website-metadata/DonationsPage",
+    "desc": "-",
+    "content": [
+      {
+        "type": "Images",
+        "desc": "images",
+        "files": [
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Donations%20page/Images/service%20section-Conquer%20or%20Die.png?updatedAt=1721138831736",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Donations%20page/Images/service%20section-Tuko%20Pamoja.png?updatedAt=1721138827634"
+        ]
+      },
+      {
+        "type": "Devices",
+        "desc": "images of the product",
+        "files": [
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Donations%20page/Devices/How%20it%20works.png?updatedAt=1721138830962",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Donations%20page/Devices/Product-Images.png?updatedAt=1721138831219"
+        ]
+      }
+    ]
+  },
+  {
+    "directory": "/website-metadata/DonationsPage",
+    "desc": "-",
+    "content": [
+      {
+        "type": "Images of Team",
+        "desc": "images",
+        "files": [
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Teams/Team-1.png?updatedAt=1722382398727",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Teams/Team-2.png?updatedAt=1722382398564",
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Teams/Team-3.png?updatedAt=1722382396696"
+        ]
+      }
+    ]
+  }
+]
