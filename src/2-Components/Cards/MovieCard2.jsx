@@ -85,7 +85,7 @@ const MovieCard2 = ({ data, stylecard }) => {
             onMouseLeave={onMouseLeave}
 
             className={
-                "min-h-[250px] h-max w-[200px] sm:w-[292px] md:min-h-[510px] md:w-[400px] flex flex-col items-start gap-3 pixelated box-border select-none "
+                "min-h-[200px] h-max w-[200px] lg:mt-3 sm:w-[292px] md:min-h-[510px] md:w-[400px] flex flex-col items-start gap-3 pixelated box-border select-none "
             }
         >
             <div className="w-full rounded-sm">

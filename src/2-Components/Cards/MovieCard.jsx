@@ -99,7 +99,7 @@ const MovieCard = ({ data, stylecard }) => {
                 />
             </div>
 
-            <Stack className="flex flex-row p-0 m-0 items-center justify-center gap-2">
+            <Stack className="flex flex-row p-0 m-0 items-center justify-center gap-2 lg:pt-3">
                 <Typography className="text-[#EE5170]  text-center select-none relative font-medium text-[14px]  sm:text-xl pl-0">
                     Premiered
                 </Typography>
@@ -130,7 +130,7 @@ const MovieCard = ({ data, stylecard }) => {
                 <Buttons
                     onClick={() => navigate(`/film/${data?._id.$oid}`)}
                     variant="ghost"
-                    className="text-primary-500 font-sans text-[13px] sm:text-base h-max w-max flex absolute bottom-0 right-0 p-0 m-0"
+                    className="text-primary-500 font-sans text-[13px] sm:text-base rounded h-max w-max flex absolute bottom-0 right-0 px-3 py-2 m-0 hover:bg-whites-900 bg-opacity-14%"
                 >
                     Read more
                 </Buttons>

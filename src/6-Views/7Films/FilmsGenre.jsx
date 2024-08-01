@@ -14,7 +14,7 @@ const FilmsGenre = ({ title, watchData }) => {
         <Container className="w-full bg-[#141118] py-16  overflow-hidden">
             <Box className="w-full mx-auto grid md:grid-cols-1 md:gap-10 lg:gap-16  xl:gap-24 items-start">
                 <Stack spacing={"40px"} className=" px-5 sm:pl-16 md:pr-16">
-                    <Box className="flex flex-col space-y-4">
+                    <Box className="flex flex-col space-y-10">
                         <h1 className="text-[#FFFAF6] opacity-[100%] text-base md:text-[22px] xl:text-4xl text-left font-[Inter-SemiBold] capitalize">
                             {title}
                         </h1>
