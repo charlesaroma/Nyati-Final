@@ -33,7 +33,7 @@ const DonatePage = () => {
   };
   return (
     <>
-      <div className="relative  px-0 w-full h-full bg-secondary-900 overflow-x-hidden  ">
+      <div className="relative  px-0 w-full h-full bg-secondary-800 overflow-x-hidden  ">
         <Navigation />
 
         <div className="flex flex-col w-full h-full gap-0 space-0">

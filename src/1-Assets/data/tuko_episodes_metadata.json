@@ -89,6 +89,7 @@
       "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S2%20-%20Buganda/Backdrops/Screenshot%202024-05-13%20at%2023.06.05.png?updatedAt=1721041942157"
     ]
   },
+<<<<<<< HEAD
   {
     "_id": {
       "$oid": "6654942e36470e427423ebf4"
@@ -127,6 +128,63 @@
       "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S3%20-%20Busoga/Backdrops/Screenshot%202024-05-13%20at%2023.34.17.png?updatedAt=1721041143311",
       "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S3%20-%20Busoga/Backdrops/Screenshot%202024-05-13%20at%2023.35.18.png?updatedAt=1721041251785"
     ]
+=======
+  "seasonCounter": "1",
+  "episodeCounter": "1",
+  "episodeTitle": "Bunyoro-Kitara",
+  "YearOfProduction": "2024",
+  "rated": "G",
+  "released": "3 February 2024",
+  "runtime": "",
+  "directors": [
+    "Cindy Magara"
+  ],
+  "producers": [
+    "Cindy Magara"
+  ],
+  "writers": [
+    "Cindy Magara"
+  ],
+  "plotSummary": "See the history of the Kitara Empire, one of the largest empires in East and Central Africa. The detailed story of Omukama (king) John Cwa II Kabaleega, who was a paramount king of East Africa’s kingdoms and chiefdoms, encapsulates the thesis of the Tuko Pamoja (We are one) series.",
+  "audioLanguages": [
+    {
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "subtitleLanguages": [],
+  "filmType": "episode",
+  "youtubeTrailer": "https://www.youtube.com/watch?v=y1tsdziofPI",
+  "localTrailer": "https://nyat-streams.fra1.cdn.digitaloceanspaces.com/films/TukoPamoja(2024)/Episodes-Segments/S1-Bunyoro-Kitara/Trailer/Bunyoro-Kitara%20Trailer%20EMB.mp4",
+  "fullVideoLink": "",
+  "posters": [
+    "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S1%20-%20Bunyoro-Kitara/Posters/Bunyoro%20Film%20Poster.jpg?updatedAt=1722524049399",
+    "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S1%20-%20Bunyoro-Kitara/Posters/Bunyoro%20Thumbnail.jpg?updatedAt=1721038728126",
+    "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S1%20-%20Bunyoro-Kitara/Posters/BUNYORO%20COPY%201.jpg?updatedAt=1721038519759"
+  ],
+  "backdrops": [
+    "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S1%20-%20Bunyoro-Kitara/Backdrops/Screenshot%202024-05-13%20at%2023.01.34.png?updatedAt=1721041873967",
+    "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S1%20-%20Bunyoro-Kitara/Backdrops/Screenshot%202024-05-13%20at%2023.02.06.png?updatedAt=1721049601554",
+    "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S1%20-%20Bunyoro-Kitara/Backdrops/Screenshot%202024-05-13%20at%2023.02.57.png?updatedAt=1721051517958"
+  ],
+  "screening": [
+    {
+      "Place": "Ham Cinemax",
+      "Location": "Kampala",
+      "Dates": [
+        {
+          "Dates": "2024-06-14T21:00:00.000Z",
+          "Time": "2:00pm"
+        }
+      ]
+    }
+  ],
+  "showCaseState": "InTheatres"
+},
+{
+  "_id": {
+    "$oid": "6654942036470e427423ebf3"
+>>>>>>> 79fe1df6f73e4d5eadba15da83917de0f5ffcf76
   },
   {
     "_id": {

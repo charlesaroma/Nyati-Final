@@ -4,20 +4,19 @@ import LpImage from "../../1-Assets/laptop.png";
 import Buttons from "../../2-Components/Buttons/Buttons";
 const DHelpSection = ({ handleAmountOpen }) => {
   return (
-    <div className="min-h-[60vh] h-full lg:h-screen flex flex-col bg-[#141118] items-center justify-center px-[30px] py-16 sm:px-16 md:py-16 lg:py-16 w-screen overflow-hidden relative">
+    <div className="min-h-[60vh] h-full lg:min-h-screen flex flex-col bg-[#141118] items-center justify-center px-[30px] py-16 sm:px-16 md:py-16 lg:py-16 w-screen overflow-hidden relative">
       {/* container */}
-      <div className="w-full h-full flex flex-col lg:flex-row justify-between items-center md:px-[5%] py-0">
+      <div className="w-full h-full flex flex-col lg:flex-row mt-16 lg:mt-[100px] justify-between items-center md:px-[5%] md:mt-[80px] py-0">
         {/* icon, text & button */}
-        <div className="w-full lg:max-w-[350px] xl:max-w-[400px] flex flex-col items-center lg:items-start justify-center gap-[20px] lg:gap-5  lg:text-left text-center">
+        <div className="w-full lg:max-w-[350px] xl:max-w-[400px] flex flex-col items-center lg:items-start justify-center gap-3 md:gap-5 lg:gap-5  lg:text-left text-center">
           {/* icon */}
           <div className="w-[57px] h-[57px] rounded-full bg-[#F7A8B8] flex flex-col items-center justify-center relative">
             <img src={iconImg} alt="" className="w-[50%]" />
           </div>
 
           {/* heading */}
-          <h1 className="text-3xl md:text-3xl xl:text-5xl text-[#FFFFFE] font-bold font-[Inter-Bold]">
-            <span>Help us</span>
-            <span className="block">share our stories</span>
+          <h1 className="text-3xl md:text-3xl xl:text-5xl text-[#FFFFFE] font-bold md:max-w-[219px] capitalize lg:max-w-[319px] font-[Inter-Bold]">
+            Help us share our stories 
           </h1>
 
           {/* paragraph */}
@@ -48,7 +47,7 @@ const DHelpSection = ({ handleAmountOpen }) => {
           />
         </div>
 
-        <div className=" flex lg:hidden justify-center lg:justify-start">
+        <div className=" flex lg:hidden justify-center lg:mb-4 lg:justify-start">
           <Buttons
             className="bg-[#EE5170] w-[190.34px] h-[41.38px] rounded-[49.66px]
               font-inter font-semibold text-16 leading-19.36 text-[#FFFAF6] cursor-pointer"
