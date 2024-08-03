@@ -1,6 +1,7 @@
-import React from 'react';
+import React from "react";
 import postersImg from "../../1-Assets/laptop.png";
-import Buttons from '../../2-Components/Buttons/Buttons';
+import Buttons from "../../2-Components/Buttons/Buttons";
+import { NavLink } from "react-router-dom";
 
 const HContentSection = () => {
   return (
@@ -26,13 +27,15 @@ const HContentSection = () => {
               community of pioneers
             </p>
           </div>
-          <Buttons className="bg-[#1A171E] rounded-lg w-full md:max-w-[347px] h-[64px] lg:mt-5 flex items-center justify-center text-[#EE5070] text-[13.96px] md:text-[16px] uppercase italic font-bold hover:text-whites-50 mx-auto lg:mx-0">
-            SEND US A DONATION
-          </Buttons>
+          <NavLink to="/donate">
+            <Buttons className="bg-[#1A171E] rounded-lg w-full md:max-w-[347px] h-[64px] lg:mt-5 flex items-center justify-center text-[#EE5070] text-[13.96px] md:text-[16px] uppercase italic font-bold hover:text-whites-50 mx-auto lg:mx-0">
+              SEND US A DONATION
+            </Buttons>
+          </NavLink>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default HContentSection;
