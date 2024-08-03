@@ -38,7 +38,7 @@
             "localTrailer": "https://nyat-streams.fra1.cdn.digitaloceanspaces.com/films/TukoPamoja(2024)/Episodes-Segments/S13-Uganda/Trailer/Uganda%20Trailer%20EMB.mp4",
             "fullVideoLink": " ",
             "posters": [
-              "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S13%20-%20Uganda/Posters/UGANDA%20Thumbnail.jpg?updatedAt=1721038729287"
+              "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Improved_Nyati_Thumbnails/Uganda.png?updatedAt=1722657044126"
             ],
             "backdrops": [
               "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S13%20-%20Uganda/Backdrops/Screenshot%202024-05-20%20at%2023.19.58.png?updatedAt=1721040069353",
@@ -80,10 +80,7 @@
             "localTrailer": "https://nyat-streams.fra1.cdn.digitaloceanspaces.com/films/TukoPamoja(2024)/Episodes-Segments/S6-EasternUganda/Trailer/Bamasaba%20-%20Babukusu%20Trailer%20EMB.mp4",
             "fullVideoLink": "N/A",
             "posters": [
-              "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S6%20-%20Eastern%20Uganda/Posters/Luhya.jpg?updatedAt=1721036960561",
-              "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S6%20-%20Eastern%20Uganda/Posters/BUKEDI.jpg?updatedAt=1721036927116",
-              "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S6%20-%20Eastern%20Uganda/Posters/BABUKUSU.jpg?updatedAt=1721036906990",
-              "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S6%20-%20Eastern%20Uganda/Posters/BABUKUSU-BAMASABA.jpg?updatedAt=1721036816628"
+              "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Improved_Nyati_Thumbnails/Eastern%20Uganda.png?updatedAt=1722657131618"
             ],
             "backdrops": [
               "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S6%20-%20Eastern%20Uganda/Backdrops/Screenshot%202024-05-14%20at%2000.50.06.png?updatedAt=1721037639066",
@@ -128,8 +125,8 @@
             "localTrailer": "https://nyat-streams.fra1.cdn.digitaloceanspaces.com/films/TukoPamoja(2024)/Episodes-Segments/S4-Ankole/Trailer/Ankole%20Trailer%20EMB.mp4",
             "fullVideoLink": "",
             "posters": [
-              "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S4%20-%20Ankole/Posters/ANKOLE%20THUMBNAIL.jpg?updatedAt=1721040302351"
-            ],
+              "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Improved_Nyati_Thumbnails/Ankole.png?updatedAt=1722657118192"
+             ],
             "backdrops": [
               "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S4%20-%20Ankole/Backdrops/Screenshot%202024-05-14%20at%2000.35.11.png?updatedAt=1721041134740",
               "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S4%20-%20Ankole/Backdrops/Screenshot%202024-05-14%20at%2000.35.50.png?updatedAt=1721040680490",
@@ -149,7 +146,7 @@
             },
             "seasonCounter": "1",
             "episodeCounter": "11",
-            "episodeTitle": "Break Away Kingdoms: Bunyala, Buruuli and Kooki",
+            "episodeTitle": "(Re)-emergent/Breakaway states: Bunyala, Buruuli & Kooki",
             "YearOfProduction": "2024",
             "rated": "PG-13",
             "released": "18 May 2024",
@@ -170,8 +167,7 @@
             "localTrailer": "https://nyat-streams.fra1.cdn.digitaloceanspaces.com/films/TukoPamoja(2024)/Episodes-Segments/S11-BreakAwayKingdoms/Trailer/Breakaway%20States%20Trailer%20EMB.mp4",
             "fullVideoLink": " ",
             "posters": [
-              "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S11%20-%20Break%20Away%20Kingdoms/Posters/BUNYALA%20AND%20BURUULI.jpg?updatedAt=1721036118383",
-              "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S11%20-%20Break%20Away%20Kingdoms/Posters/KOOKI.jpg?updatedAt=1721036031473"
+              "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Improved_Nyati_Thumbnails/Breakaway%20states.png?updatedAt=1722657148827"
             ],
             "backdrops": [
               "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S11%20-%20Break%20Away%20Kingdoms/Backdrops/Screenshot%202024-05-20%20at%2023.14.08.png?updatedAt=1721037150452",
@@ -193,7 +189,7 @@
             },
             "seasonCounter": "1",
             "episodeCounter": "8",
-            "episodeTitle": "Luo: Labongo and Gipir Land; Acholi and Jopadhola and Alur",
+            "episodeTitle": "The Luo: Acholi, Alur & Jopadhola",
             "YearOfProduction": "2024",
             "rated": "PG-13",
             "released": "20 April 2024",
@@ -214,7 +210,7 @@
             "localTrailer": "https://nyat-streams.fra1.cdn.digitaloceanspaces.com/films/TukoPamoja(2024)/Episodes-Segments/S8-Luo/Trailer/Luo%20Trailer%20EMB.mp4",
             "fullVideoLink": "",
             "posters": [
-              "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S8%20-%20Luo/Posters/LUO%20SEGMENT.jpg?updatedAt=1721038202110"
+              "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Improved_Nyati_Thumbnails/TV%20-%208.png?updatedAt=1722657135218"
             ],
             "backdrops": [
               "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S8%20-%20Luo/Backdrops/Screenshot%202024-05-14%20at%2001.01.47.png?updatedAt=1721039056048",

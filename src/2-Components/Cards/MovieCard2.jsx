@@ -92,7 +92,7 @@ const MovieCard2 = ({ data, stylecard }) => {
                 <img
                     src={posterlink}
                     alt={"movie"}
-                    className="size-fit object-cover sm:size-fill object-top h-[252px] sm:h-[350px] w-full rounded-lg"
+                    className="size-fit object-contain md:object-scale-down sm:size-fill object-top md:h-[252px] sm:h-[350px] w-full rounded-lg"
                 />
             </div>
 
