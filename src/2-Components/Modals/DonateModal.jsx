@@ -5,6 +5,7 @@ import DonateContent from "./DonateContent";
 import CustomLoader from "./CustomLoader";
 import DonateConfirmation from "./DonateConfirmation";
 import DonatePrices from "./DonatePrices";
+import DonateVisaConfirm from "./DonateVisaConfirm.jsx";
 import { DonateStepperContext } from "../../5-Store/Contexts/DonateCheckout";
 const stepperArray = [
   {
@@ -14,7 +15,8 @@ const stepperArray = [
     title: "Contact",
   },
   {
-    title: "Confirmation",
+   // title: "Confirmation",
+   title: "DonateConfirm"
   },
 ];
 const DonateModal = ({ visible, onClose, selectedAmount }) => {
@@ -27,7 +29,12 @@ const DonateModal = ({ visible, onClose, selectedAmount }) => {
     paymentType: ""
   })
 
+  const [redirectPath, setRedirectPath] = React.useState({
+    redirectpath: ""
+  })
+
   const [contactData, setContactData] = React.useState({
+    email: "",
     phonenumber: "",
     firstname: "",
     lastname: "",
@@ -95,10 +102,12 @@ const DonateModal = ({ visible, onClose, selectedAmount }) => {
         return (<DonateContent innerref={formRef} handleStepNext={handleStepNext} handleFormSubmit={handleFormSubmit} stepperData={stepperArray}
           currentStep={currentStep} isGSubmitting={isSubmitting} setIsSubmitting={setIsSubmitting} close={onClose} />);
 
-      case "Confirmation":
-        return (<DonateConfirmation innerref={formRef} handleStepNext={handleStepNext} stepperData={stepperArray}
-          currentStep={currentStep} close={onClose}  />)
-
+      // case "Confirmation":
+      //   return (<DonateConfirmation innerref={formRef} handleStepNext={handleStepNext} stepperData={stepperArray}
+      //     currentStep={currentStep} close={onClose}  />)
+        case "DonateConfirm":
+          return <DonateVisaConfirm innerref={formRef} handleStepNext={handleStepNext} stepperData={stepperArray}
+          currentStep={currentStep} close={onClose} />;
       default:
         return null;
     }
@@ -113,7 +122,7 @@ const DonateModal = ({ visible, onClose, selectedAmount }) => {
       className="w-full h-full fixed inset-0 bg-[#7F7075] bg-opacity-30 backdrop-blur-sm z-50 flex items-center justify-center "
     >
 
-      <DonateStepperContext.Provider value={{ paymentData, setPaymentData, contactData, setContactData }}>
+      <DonateStepperContext.Provider value={{ paymentData, setPaymentData, contactData, setContactData, redirectPath, setRedirectPath }}>
         {FormDisplay(stepsAllComplete ? "Complete" : currentStep)}
       </DonateStepperContext.Provider>
 
