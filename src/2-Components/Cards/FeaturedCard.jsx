@@ -1,9 +1,14 @@
 import React from "react";
 import Buttons from "../Buttons/Buttons";
 import { NavLink } from "react-router-dom";
-import { BASE_URL_PROD } from "../../1-Assets/utilities/base-url.config";
+import { BASE_URL_PROD, BASE_URL_LOC } from "../../1-Assets/utilities/base-url.config";
 
 const FeaturedCard = ({ data }) => {
+ /**
+ * Change this link
+ */
+  const base_url = BASE_URL_LOC
+
   const [openModal, setOpenModal] = React.useState(false);
 
   const handleMouseEnter = () => {
@@ -33,7 +38,7 @@ const FeaturedCard = ({ data }) => {
       {openModal && (
         <div className="absolute top-0 w-full h-full gap-[15px] flex flex-col items-center justify-center bg-secondary-800 bg-opacity-70">
           <Buttons className="bg-[#1A171E] rounded-lg w-[220px] h-[54px] flex items-center justify-center text-[#EE5070] text-[13.96px] md:text-[16px] uppercase italic font-[Inter-Bold] hover:text-primary-500 mx-auto lg:mx-0">
-            <NavLink to={`${BASE_URL_PROD}${data.link}`}>Read More</NavLink>
+            <NavLink to={`${base_url}${data.link}`}>Read More</NavLink>
           </Buttons>
           <Buttons className="bg-[#1A171E] rounded-lg w-[220px] h-[54px] flex items-center justify-center text-[#EE5070] text-[13.96px] md:text-[16px] uppercase italic font-[Inter-Bold] tracking-normal hover:text-primary-500 mx-auto lg:mx-0">
             <a href={`${data.Trailerlink}`} target="_blank">Watch Trailer</a>

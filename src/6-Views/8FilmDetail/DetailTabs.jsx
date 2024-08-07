@@ -90,10 +90,11 @@ const DetailTabs = ({
       <Container className="min-h-[60vh] ">
           {displayTabs?.length > 0 && (
               <TabContext value={currentTabValue !== null && currentTabValue}>
-                  <Box className="w-screen space-x-5">
+                  <Box className="w-screen space-x-5 border-primary-500">
                       <Tabs
                           value={currentTabValue !== null && currentTabValue}
                           onChange={handleTabChange}
+                          TabIndicatorProps={{ style: {backgroundColor: "#EE5070"}}}
                           sx={{ margin: "4px" }}
                       >
                           {displayTabs.map((data, index) => {
@@ -121,6 +122,7 @@ const DetailTabs = ({
       </Container>
   )
 }
+
 
 export default DetailTabs
 

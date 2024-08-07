@@ -50,13 +50,13 @@
         "type": "Hero",
         "desc": "images for the herosection",
         "files": [
-         "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Services%20&%20Ongoing%20Production(s)/Images/Desktop%20-%201.png?updatedAt=1722374383556"
+          "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Services%20&%20Ongoing%20Production(s)/Images/Desktop%20-%201.png?updatedAt=1722374383556"
         ]
       },
       {
-        "type":"Intro",
-        "desc":"image for the intro",
-        "files":[
+        "type": "Intro",
+        "desc": "image for the intro",
+        "files": [
           "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Services%20&%20Ongoing%20Production(s)/Images/Our-services-main.png?updatedAt=1721137186489"
         ]
       },
@@ -92,16 +92,16 @@
         ]
       },
       {
-        "type":"Vision&Mission",
-        "desc":"image for the vision & mission",
-        "files":[
+        "type": "Vision&Mission",
+        "desc": "image for the vision & mission",
+        "files": [
           "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Services%20&%20Ongoing%20Production(s)/Images/Background.png?updatedAt=1721137192972"
         ]
       },
       {
-        "type":"Pre-productionimage",
-        "desc":"image for the vision & mission",
-        "files":[
+        "type": "Pre-productionimage",
+        "desc": "image for the vision & mission",
+        "files": [
           "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/%20Services%20&%20Ongoing%20Production(s)/Images/Featured%20Pre-production.png?updatedAt=1721137189555"
         ]
       }
@@ -111,19 +111,19 @@
     "directory:": "/website-metadata/Team",
     "desc": "image for the team section",
     "content": [
-  {
-    "type":"Member 1",
-"file": "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Teams/DSCF8275-removebg-preview%201.png?updatedAt=1722382884693"
-},
-{
-  "type":"Member 2",
-"file":"https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Teams/DSCF70000-removebg-preview%201.png?updatedAt=1722382882815"
-},
-{
-  "type":"Member 3",
-"file": "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Teams/DSCF9401-removebg-preview%201.png?updatedAt=1722382884075"
-}
-  ]
+      {
+        "type": "Member 1",
+        "file": "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Teams/DSCF8275-removebg-preview%201.png?updatedAt=1722382884693"
+      },
+      {
+        "type": "Member 2",
+        "file": "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Teams/DSCF70000-removebg-preview%201.png?updatedAt=1722382882815"
+      },
+      {
+        "type": "Member 3",
+        "file": "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Teams/DSCF9401-removebg-preview%201.png?updatedAt=1722382884075"
+      }
+    ]
   },
   {
     "directory": "/website-metadata/FilmsPage",
