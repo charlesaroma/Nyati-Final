@@ -1,9 +1,14 @@
 import React from 'react'
 import styled from "styled-components";
 
-import HeroBg from "../../1-Assets/Hero2.svg";
 import Buttons from '../../2-Components/Buttons/Buttons';
 import { Icon } from "@iconify/react";
+import Metadata from '../../1-Assets/data/web_metadata.json'
+
+const obj = Metadata;
+const result = obj[Object.keys(obj)[0]];
+const HeroBg = result.content[1].files[4];
+
 
 const ContactUsHero = ({ scrollfunc }) => {
   return (

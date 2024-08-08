@@ -1,8 +1,5 @@
 import React from 'react'
 import DiscoverCard from "../../2-Components/Cards/DiscoverCard";
-// import stateImage from "../../1-Assets/Services/Discover/state.svg";
-// import a2100Image from "../../1-Assets/Services/Discover/a2100.svg";
-// import conquerImage from "../../1-Assets/Services/Discover/conquer.svg";
 import Buttons from '../../2-Components/Buttons/Buttons';
 import Metadata from '../../1-Assets/data/web_metadata.json'
 

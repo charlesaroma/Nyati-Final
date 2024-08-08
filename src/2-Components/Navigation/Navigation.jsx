@@ -1,8 +1,13 @@
 import React from "react";
 import { useNavigate, NavLink } from "react-router-dom";
-import Logo from "../../1-Assets/Logo1.svg";
 import Buttons from "../Buttons/Buttons";
 import { Icon } from "@iconify/react";
+import Metadata from '../../1-Assets/data/web_metadata.json'
+
+const obj = Metadata;
+const result = obj[Object.keys(obj)[0]];
+const Logo = result.content[2].files[1];
+console.log(result.content[2].files[1])
 
 const MenuItemData = [
   {

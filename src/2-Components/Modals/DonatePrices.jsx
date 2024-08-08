@@ -7,6 +7,7 @@ import { DonateStepperContext } from "../../5-Store/Contexts/DonateCheckout";
 import { Form, Formik } from "formik";
 
 
+
 const priceArray = [
   {
     key: "0",
@@ -167,6 +168,13 @@ const DonatePrices = ({ innerref, handleStepNext, stepperData, currentStep, isGS
                   onClick={() => handleSubmitted("MTN", setFieldValue, errors)}
                 >
                   Continue with MTN Momo
+                </Buttons>
+                <Buttons
+                  className=" w-full  rounded-full font-[Roboto-Medium] text-sm sm:text-base"
+                  type="button"
+                  onClick={() => handleSubmitted("Visa", setFieldValue, errors)}
+                >
+                  Continue with Visa/Mastercard
                 </Buttons>
 
                 <Buttons onClick={close} type="button" className="w-full rounded-full font-[Roboto-Medium] text-xs sm:text-base bg-transparent hover:bg-transparent border border-primary-500 text-primary-500 text-opacity-30 border-opacity-30 hover:border-opacity-100 hover:text-primary-500">

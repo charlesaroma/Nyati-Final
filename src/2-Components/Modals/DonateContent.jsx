@@ -3,11 +3,12 @@ import Buttons from '../Buttons/Buttons';
 import LogoImg from "../../1-Assets/logos/Logo.svg";
 import { DonateStepperContext } from '../../5-Store/Contexts/DonateCheckout';
 import * as yup from "yup";
+import axios from "axios";
 import { Form, Formik } from "formik";
 import CustomLoader from './CustomLoader';
 
 const DonateContent = ({ innerref, handleStepNext, stepperData, currentStep, setIsSubmitting, isGSubmitting, handleFormSubmit, close }) => {
-  const { contactData, setContactData } = useContext(DonateStepperContext);
+  const { contactData, setContactData, paymentData, setRedirectPath } = useContext(DonateStepperContext);
 
   const validationSchema = yup.object().shape({
     phonenumber: yup.number().required("phonenumber is required"),
@@ -23,9 +24,19 @@ const DonateContent = ({ innerref, handleStepNext, stepperData, currentStep, set
     setIsSubmitting(() => false)
   }, [])
   return (
-    <Formik innerRef={innerref} initialValues={contactData} validationSchema={validationSchema} onSubmit={(values, helpers) => {
+    <Formik innerRef={innerref} initialValues={contactData} validationSchema={validationSchema} onSubmit={async (values, helpers) => {
       setContactData({ ...contactData, ...values });
+       let submitValues = {
+        ...contactData, ...values, ...paymentData
+       }
       setIsSubmitting(() => true)
+
+      let axiosPost = await axios.post("https://helping-alpaca-fit.ngrok-free.app/nyatipay/donate", submitValues, {
+        headers: { 'content-type': 'multipart/form-data' }
+      })
+      
+        setRedirectPath({ redirectpath: axiosPost.data.redirect_url })
+      
       setTimeout(() => {
         handleStepNext()
       }, 1000);
@@ -51,6 +62,21 @@ const DonateContent = ({ innerref, handleStepNext, stepperData, currentStep, set
               <h1 className="font-[Inter-SemiBold] text-[18px]">Donation Details</h1>
               {/** inputs */}
               <div className="flex flex-col gap-[10px]">
+                {/** added email & phone number */}
+                <div className="flex gap-2">
+                <div className="w-full gap-2">
+                    <label className="text-[#3C3A3B] font-[Roboto-Medium] text-sm">
+                      Email
+                    </label>
+                    <input
+                      type="text"
+                      name="email"
+                      value={values.email}
+                      onChange={handleChange}
+                      className="border border-secondary-700 border-opacity-30 h-[30px]  sm:h-[40px] w-full rounded-lg focus:outline-none px-3 font-[Roboto-Regular] text-sm "
+                    />
+                    {errors && errors.email ? <p className="font-[Inter-SemiBold] text-red-400 text-xs">{errors.email}</p> : null}
+                  </div>
                 <div className="w-full gap-2">
                   <label className="text-[#3C3A3B] font-[Roboto-Medium] text-sm">
                     Mobile Number
@@ -64,6 +90,8 @@ const DonateContent = ({ innerref, handleStepNext, stepperData, currentStep, set
                   />
                   {errors && errors.phonenumber ? <p className="font-[Inter-SemiBold] text-red-400 text-xs">{errors.phonenumber}</p> : null}
                 </div>
+                </div>
+                 
                 <div className="w-full gap-2">
                   <label className="text-[#3C3A3B] font-[Roboto-Medium] text-sm">
                     First name{" "}

@@ -1,5 +1,9 @@
 import React from "react";
-import DrImage from "../../1-Assets/Dr Eve.png";
+import Metadata from '../../1-Assets/data/web_metadata.json'
+
+const obj = Metadata;
+const result = obj[Object.keys(obj)[4]];
+const DrImage = result.content[0].files[2];
 
 const AFounderSection = ({ nRef }) => {
   return (

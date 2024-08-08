@@ -6,7 +6,7 @@ const FilmLists = ({ title, displayData, pl, cardtype }) => {
     return (
         <Stack spacing={"20px"} className={`${pl ? pl : "pl-0"} flex-col w-screen !overflow-hidden`}>
             {title && (
-                <h1 className="text-[#FFFAF6] font-[Inter-SemiBold] opacity-[100%] text-base md:text-[22px] text-left">
+                <h1 className="text-[#FFFAF6] font-[Inter-SemiBold] opacity-[70%] py-2 text-base md:text-[22px] text-left">
                     {title}
                 </h1>
             )}

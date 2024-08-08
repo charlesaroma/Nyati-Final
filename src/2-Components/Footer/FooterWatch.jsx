@@ -1,7 +1,11 @@
 import React from "react";
-import watchBg from "../../1-Assets/watchtimeImg.svg";
 import Buttons from "../Buttons/Buttons";
 import { Icon } from "@iconify/react";
+import Metadata from '../../1-Assets/data/web_metadata.json'
+
+const obj = Metadata;
+const result = obj[Object.keys(obj)[0]];
+const watchBg = result.content[1].files[1];
 
 const FooterWatch = () => {
   return (
