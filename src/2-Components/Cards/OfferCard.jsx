@@ -7,7 +7,7 @@ const OfferCard = ({ data }) => {
         <img src={data.img} alt="" className="w-full h-full object-cover" />
       </div>
       <div className="flex w-full bg-secondary-800 bg-opacity-[80%] z-20  ">
-        <div className="flex flex-col gap-[4.75px] text-whites-50 px-[21px] pt-[18px] pb-[12px] h-[122px]">
+        <div className="flex flex-col gap-[4.75px] text-whites-50 px-[21px] pt-[18px] pb-[12px] h-[178px]">
           <text className="font-medium font-[Inter-Medium] text-[18px] leading-[24px]">
             {data.title}
           </text>

@@ -272,6 +272,36 @@
           "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Teams/Team-1.png?updatedAt=1722382398727",
           "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Teams/Team-2.png?updatedAt=1722382398564",
           "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Teams/Team-3.png?updatedAt=1722382396696"
+        ],
+        "members": [
+          {
+            "memberCounter": 1,
+            "fullName": "Cindy Evelyn Magara (PhD)",
+            "desc": "Cindy Evelyn Magara (PhD) is a Lecturer in film and literature at Makerere University in Uganda. She is also a filmmaker with Nyati Motion Pictures. She is passionate about film. As such, her Master’s degree and Doctoral research projects were on African Cinema: Symbolism in Ugandan Film from Makerere University, Uganda, and Contemporary East African Cinema: Emergent Themes and Aesthetics from The University of Sydney, Australia), respectively. Her film oeuvre includes three feature titles and two documentary films:  Windows of Hope (2011), Fair Play (2009) and Fate (2006), A Book for Every Child (2013), and Tuko Pamoja (2024). Dr Magara is a prolific filmmaker and academic keen on cultural studies. She not only wrote and directed Uganda’s first independent film, Fate 2006 (which was the first to show at Cineplex Cinemas and the first show on DSTV Africa Magic). She has also worked as a juror at various festivals and competitions, with the notable ones being: chief juror for Pearl International Film Festivals, Uganda, from 2008 to 2017 and Juror member in 2024; she is a member of the Oscars’ Selection committee for Best Foreign Language/International Film Category for Uganda since 2019 to date and juror member for the Uganda Film Festival, 2022 and 2023. She is currently developing a live-action series (Uganda’s ‘Game of Thrones’) about the kings of Uganda, with Kabaleega as the protagonist, at the coming of the British colonialists into East Africa, titled “Conquer or Die”.",
+            "phone": "+256702074337",
+            "email": "cindyem2@gmail.com"
+          },
+          {
+            "memberCounter": 2,
+            "fullName": "Akiiki Romeo a.k.a (Tusiime Wilfred Romeo)",
+            "desc":"A Pearl of Africa Award-winning musician, songwriter, producer and performer. A former member of the KADS Band with hit songs like “No Parking” and the ever-green ballad,“Garuka”. Akiiki was a Production Executive with 91.3 Capital FM in Kampala, producing shows like the “Capital Gang” and “Desert Island Discs”. Akiiki continues to produce sound for Television, Radio and film. Notable is the Tuko Pamoja project, for which he composed and produced the soundtracks for all the documentary segments. He was the sound supervisor for the documentary. He recorded and produced the sound (narration and percussion).",
+            "phone": "+256774789164",
+            "email": "akiiki.romeo@gmail.com"
+          },
+          {
+            "memberCounter": 3,
+            "fullName": "Rogers Atukunda",
+            "desc": "Rogers Atukunda started his film journey at Makerere University when he won $2000 award for the short script “Me & Myself”, in 2011 at Maisha film lab founded by Hollywood/Bollywood director Mira Nair. He directed and produced the short film “Me & Myself” (2012); worked as an assistant director, screenwriter and producer of a mini-feature “Breaking the Mesh” (2012) by Makerere film students. He was an assistant director on a feature film “Hang Out” (2013) by Kennedy Kihire as well as a production designer on “Gotto” (2012) a film by Tony Angelo and Kennedy Kihire. He is currently working on writing a children’s film script “Paparazzi” with his mentor Cindy Magara, a filmmaker and film academic and producing a documentary on climate change called “Okere City”. Atukunda was a lead researcher and editor for Tuko Pamoja, a docuseries about Uganda’s heroes and heroines from 1870-1920. He is currently researching for the live-action Afro-history series that will bring east Africa’s story of colonial resistance through the lens of warrior king Omukama Kabaleega of Bunyoro-Kitara.",
+            "phone": "+256 784873420/ 703994605/ 782252804",
+            "email": "rarrigz@gmail.com/atukundarogers@gmail.com"
+          },
+          {
+            "memberCounter": 4,
+            "fullName": "",
+            "desc": "",
+            "phone": "",
+            "email": ""
+          }
         ]
       }
     ]

@@ -81,6 +81,13 @@ const Footer = () => {
               </NavLink>
             </div>
             <div className="text-[#8b8789] font-[Inter-Medium] text-[16px]">
+              <NavLink to="/film">
+                <span className="hover:text-[#dcdbdc]">
+                  Films
+                </span>
+              </NavLink>
+            </div>
+            <div className="text-[#8b8789] font-[Inter-Medium] text-[16px]">
               <NavLink to="/contact">
                 <span className="hover:text-[#dcdbdc]">Contact Us</span>
               </NavLink>

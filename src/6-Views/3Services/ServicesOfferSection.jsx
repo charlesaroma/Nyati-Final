@@ -11,12 +11,12 @@ const offerArray = [
   {
     title: "Consultancy",
     img: Images[0],
-    desc: "We do consultancy on all aspects of film production, ie screenplay writing, pre-production, production and post-production.",
+    desc: "We do consultancy on all aspects of film production, ie screenplay writing, pre-production, production and post-production. We also research on the creative, media and culture industries in the region and the continent.",
   },
   {
     title: "Script Development",
     img: Images[1],
-    desc: "We develop and write screenplays for films/ series and documentaries.",
+    desc: "We develop and write screenplays for films/ series and documentaries. We also sell readymade scripts to other film production houses and television",
   },
   {
     title: "Film Production",
@@ -27,6 +27,11 @@ const offerArray = [
     title: "Film Editing",
     img: Images[3],
     desc: "We Provided video editing services to piece together the filmed material into a coherent and engaging narrative.",
+  },
+  {
+    title: "Film Distribution",
+    img: Images[3],
+    desc: "Nyati Motion Pictures distributes all Nyati films via Video of Demand App--Nyati Films App and via the website for streaming. Some films are uploaded on YouTube for open access (for schools only).",
   },
   {
     title: "Sound Mastering",

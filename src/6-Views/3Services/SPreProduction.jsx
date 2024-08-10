@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from "react-router-dom";
 import Buttons from '../../2-Components/Buttons/Buttons';
 import Metadata from '../../1-Assets/data/web_metadata.json'
 
@@ -36,7 +37,9 @@ const SPreProduction = () => {
 
           <div>
             <Buttons className="w-max italic bg-secondary-700 text-[#EE5070] font-[Inter-Bold] text-[14px] lg:text-[14px] uppercase p-0 py-[16px] px-[30px]">
+            <NavLink to="/services/conquerordie">
               <text>Read More</text>
+              </NavLink>
             </Buttons>
           </div>
         </div>
