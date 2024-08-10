@@ -3,7 +3,12 @@ import React, { useContext } from "react";
 import iconImg from "../../1-Assets/ProdImages/Union.svg";
 import Buttons from "../../2-Components/Buttons/Buttons";
 import DonateModal from "../../2-Components/Modals/DonateModal";
-//import { DonateStepperContext } from "../../5-Store/Contexts/DonateCheckout";
+import Metadata from "../../1-Assets/data/web_metadata.json";
+
+const obj = Metadata;
+const result = obj[Object.keys(obj)[5]];
+const Content = result.content[0];
+
 const priceArray = [
   
   {
@@ -63,7 +68,7 @@ const PDContent = () => {
     document.body.style.overflow = "unset";
   };
   return (
-    <div className="bg-secondary-900  flex flex-col items-center justify-center px-[30px] py-[54px] sm:px-16 md:px-5 lg:px-16 sm:py-16 w-screen overflow-hidden">
+    <div className="bg-secondary-800  flex flex-col items-center justify-center px-[30px] py-[54px] sm:px-16 md:px-5 lg:px-16 sm:py-16 w-screen overflow-hidden">
       <div className="flex flex-col gap-10 items-center text-center justify-center md:items-start md:flex-row lg:text-left lg:items-start xl:flex-row lg:justify-between w-full lg:max-w-[1000px] ">
         {/** text portion */}
         <div className="flex flex-col gap-[20px] lg:max-w-[570px]">
@@ -73,19 +78,7 @@ const PDContent = () => {
               Overview
             </div>
             <div className="font-[Inter-Regular] font-normal text-base text-left  lg:text-justify 2xl:text-lg text-whites-50 opacity-45 ">
-              "Conquer or Die" delves into the struggles faced by Uganda's
-              iconic figures of independence and colonial resistance—Omukama
-              Kabaleega, Kabaka Mwanga, Chief Awich, Chief Katuregye, Chief
-              Aliku, and others—whose valor in resisting foreign aggressors,
-              namely the British and the ruthless Arab slave raiders, is etched
-              both in recorded and unrecorded history. This narrative examines
-              the complex interplay between collaborators and resisters, shaping
-              the pre-colonial landscape of Uganda into a mosaic of diverse yet
-              interconnected nations. Hypothetically exploring an alternative
-              history, the series posits that had Uganda never been colonized,
-              it would have evolved into a unified modern state, perhaps under
-              the leadership of figures like Omukama Kabaleega, Kabaka Mwanga,
-              Rwot Awich, and others.
+             { Content.text }
             </div>
           </div>
           {/** directors */}

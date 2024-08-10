@@ -7,7 +7,6 @@ import Metadata from '../../1-Assets/data/web_metadata.json'
 const obj = Metadata;
 const result = obj[Object.keys(obj)[0]];
 const Logo = result.content[2].files[1];
-console.log(result.content[2].files[1])
 
 const MenuItemData = [
   {

@@ -29,11 +29,6 @@ const offerArray = [
     desc: "We Provided video editing services to piece together the filmed material into a coherent and engaging narrative.",
   },
   {
-    title: "Film Distribution",
-    img: Images[3],
-    desc: "Nyati Motion Pictures distributes all Nyati films via Video of Demand App--Nyati Films App and via the website for streaming. Some films are uploaded on YouTube for open access (for schools only).",
-  },
-  {
     title: "Sound Mastering",
     img: Images[4],
     desc: "We enhancing the audio quality and ensure that the final sound mix meets industry standards.",
@@ -42,6 +37,11 @@ const offerArray = [
     title: "Equipment Hire",
     img: Images[5],
     desc: "We rent out production equipment such as drone cameras, Mirrorless Cameras, lenses, etc) ",
+  },
+  {
+    title: "Film Distribution",
+    img: Images[6],
+    desc: "Nyati Motion Pictures distributes all Nyati films via Video of Demand App—Nyati Films App and via the website for streaming. Some films are uploaded on YouTube for open access (for schools only).",
   },
 ];
 

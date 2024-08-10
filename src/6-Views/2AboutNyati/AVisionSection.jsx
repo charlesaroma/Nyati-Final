@@ -5,8 +5,6 @@ const obj = Metadata;
 const result = obj[Object.keys(obj)[4]];
 const Bg=result.content[0].files[1]
 
-console.log(result, Bg)
-
 const AVisionSection = () => {
   return (
     <div className="w-full h-full flex flex-col items-center justify-center md:h-full min-h-[50vh] px-[30px] py-[54px] sm:px-16 sm:py-16  relative">
