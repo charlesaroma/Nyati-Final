@@ -11,6 +11,7 @@ import DonatePage from "./6-Views/6Donate/DonatePage.jsx";
 import FilmPage from "./6-Views/7Films/FilmPage.jsx";
 import FilmDetailPage from "./6-Views/8FilmDetail/FilmDetailPage.jsx";
 import Team from "./6-Views/9Team/1Team.jsx";
+import Archive from "./6-Views/10InternetArchive/1InternetArchive.jsx";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/film" element={<FilmPage />} />
           <Route path="/film/:filmid" element={<FilmDetailPage />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/internetarchive" element={<Archive/>}/>
         </Routes>
       </BrowserRouter>
     </StyledEngineProvider>

@@ -17,7 +17,7 @@ const AHeroSection = ({ scrollFunc }) => {
       <img
         src={Bg[3]}
         alt=""
-        className="flex absolute top-0 object-cover h-full w-full slect-none bg-gradient-to-b from-transparent to-secondary-700"
+        className="flex absolute top-0 object-cover h-full w-full select-none bg-gradient-to-b from-transparent to-secondary-700"
         style={{
           filter: "brightness(50%)", // Adjust brightness if needed
         }}
