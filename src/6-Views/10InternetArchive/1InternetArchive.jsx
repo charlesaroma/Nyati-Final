@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from '../../2-Components/Footer/Footer';
-import Navigation from '../../2-Components/Navigation/Navigation';
+import Navigation from '../../2-Components/Navigation/InternetArchiveNavbar';
 import InternetArchiveHeroSection from './2InternetArchiveHeroSection';
 import InternetArchivesSection from './3InternetArchivesSection';
 

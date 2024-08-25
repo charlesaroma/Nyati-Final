@@ -21,7 +21,7 @@ const InternetArchivesSection = () => {
   };
 
   return (
-    <section className="h-screen bg-whites-500 flex flex-col lg:pl-[150px] justify-center">
+    <section className="h-[70vh] bg-whites-500 flex flex-col lg:pl-[150px] justify-center">
       {/* Title Section */}
       <h2 className="text-xl font-bold mb-4">Archives</h2>
 
