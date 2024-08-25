@@ -24,7 +24,7 @@ const InternetArchivesSection = () => {
       <h2 className="text-xl font-bold mb-4">Archives</h2>
       <div className="grid grid-cols-4 gap-4">
         {archiveData.map(({ year, months }) => (
-          <div key={year} className={`col-span-${expandedYear === year ? 4 : 1}`}>
+          <div key={year} className={`col-${expandedYear === year ? 4 : 1}`}>
             <div
               className="flex items-center justify-between cursor-pointer"
               onClick={() => handleToggle(year)}
