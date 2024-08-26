@@ -1,8 +1,4 @@
 import React from "react";
-import styled from "styled-components";
-
-import Buttons from "../../2-Components/Buttons/Buttons";
-import { Icon } from "@iconify/react";
 import Bg from "../../1-Assets/Background.png";
 
 const InternetArchiveHeroSection = () => {
