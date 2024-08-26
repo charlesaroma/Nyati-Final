@@ -21,7 +21,7 @@ const InternetArchivesSection = () => {
   };
 
   return (
-    <section className="h-[90vh] relative bg-whites-500 flex flex-col items-center justify-center gap-9">
+    <section className="h-[70vh] relative bg-whites-500 flex flex-col items-center justify-center gap-9">
 
       {/* Archives Grid */}
       <div className="max-w-[750px] flex flex-col justify-center">
@@ -54,16 +54,16 @@ const InternetArchivesSection = () => {
       </div>
 
       {/* Categories Section */}
-      <div className="max-w-[750px] flex flex-row justify-center gap-10">
+      <div className="max-w-[750px] flex flex-row justify-center gap-[100px] mx-6">
         
         {/* row 1 */}
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-6">
           <span>Categories</span>
           <span>Premiere Photos</span>
         </div>
 
         {/* row 2 */}
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-6">
         <span>Festivals</span>
         <span>Articles</span>
         </div>
