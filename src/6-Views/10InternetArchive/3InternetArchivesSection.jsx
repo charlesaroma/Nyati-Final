@@ -27,6 +27,7 @@ const InternetArchivesSection = () => {
       <div className="max-w-[750px] w-full flex flex-col justify-center">
         {/* Title Section */}
         <h2 className="text-xl font-bold mb-4 text-center sm:text-left">Archives</h2>
+        
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
           {archiveData.map(({ year, months }) => (
             <div key={year} className={`col-span-${expandedYear === year ? 2 : 1} sm:col-span-${expandedYear === year ? 3 : 1} lg:col-span-${expandedYear === year ? 4 : 1}`}>
@@ -34,7 +35,7 @@ const InternetArchivesSection = () => {
                 className="flex items-center justify-start cursor-pointer"
                 onClick={() => handleToggle(year)}
               >
-                <span className="flex items-center justify-center w-6 h-6 border border-gray-500 rounded-full">
+                <span className="flex items-center justify-center text-[10px] text-whites-800 w-4 h-4 border border-gray-500 rounded-md">
                   {expandedYear === year ? <FaMinus /> : <FaPlus />}
                 </span>
                 <span className="text-lg font-medium ml-2">{year}</span>
@@ -43,7 +44,7 @@ const InternetArchivesSection = () => {
                 <ul className="mt-2 px-4 text-whites-800">
                   {months.map((month, index) => (
                     <li key={index} className="ml-4 list-none">
-                      {month}
+                      {month} - {year}
                     </li>
                   ))}
                 </ul>
