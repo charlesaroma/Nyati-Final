@@ -35,7 +35,7 @@ const Navigation = () => {
         <Buttons
           variant="default"
           className="px-5 xl:px-0 xl:w-[190.34px] xl:h-[41.38px] rounded-[49.66px] font-medium font-[Roboto-Medium]  lg:text-[12.96px] xl:text-[15.96px]  text-[#FFFAF6] cursor-pointer"
-          onClick={() => navigate("/collections")}
+          onClick={() => navigate("/Morecollections")}
         >
           More Collections
         </Buttons>
