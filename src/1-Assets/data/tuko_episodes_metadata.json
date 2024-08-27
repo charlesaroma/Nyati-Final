@@ -128,6 +128,7 @@
       "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S3%20-%20Busoga/Backdrops/Screenshot%202024-05-13%20at%2023.34.17.png?updatedAt=1721041143311",
       "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S3%20-%20Busoga/Backdrops/Screenshot%202024-05-13%20at%2023.35.18.png?updatedAt=1721041251785"
     ]
+  
 =======
   "seasonCounter": "1",
   "episodeCounter": "1",
@@ -223,7 +224,8 @@
       "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S4%20-%20Ankole/Backdrops/Screenshot%202024-05-14%20at%2000.35.50.png?updatedAt=1721040680490",
       "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S4%20-%20Ankole/Backdrops/Screenshot%202024-05-14%20at%2000.37.48.png?updatedAt=1721041033072"
     ]
-  },
+  }
+},
   {
     "_id": {
       "$oid": "6654944a36470e427423ebf6"

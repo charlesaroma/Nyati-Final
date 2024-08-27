@@ -6,6 +6,7 @@ import Footer from "../../2-Components/Footer/Footer";
 import FilmsWatchList from "./FilmsWatchList";
 import watchJSON from "../../1-Assets/data/watchlist_metadata.json";
 import FilmsGenre from "./FilmsGenre";
+import EventsSection from './FEventsSection'
 
 const FilmPage = () => {
   return (
@@ -31,6 +32,7 @@ const FilmPage = () => {
           </>
         )}
         
+        <EventsSection/>
 
         <FooterWatch />
       </div>
