@@ -85,6 +85,11 @@ const Footer = () => {
                 <span className="hover:text-[#dcdbdc]">Contact Us</span>
               </NavLink>
             </div>
+            <div className="text-[#8b8789] font-[Inter-Medium] text-[16px]">
+              <NavLink to="/internetarchive">
+                <span className="hover:text-[#dcdbdc]">Archive</span>
+              </NavLink>
+            </div>
           </div>
         </div>
         <div className="flex flex-col gap-[20px] text-center mx-auto lg:text-left">

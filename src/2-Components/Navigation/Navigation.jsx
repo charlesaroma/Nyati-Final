@@ -14,7 +14,7 @@ const Navigation = () => {
   const [aboutDropdown, setAboutDropdown] = useState(false);
 
   const toggleDropdown = () => {
-    setAboutDropdown(!aboutDropdown);
+    setAboutDropdown(prev => !prev);
   };
 
   const closeDropdown = () => {
@@ -25,7 +25,7 @@ const Navigation = () => {
     { title: "Home", path: "/" },
     { 
       title: "About Us", 
-      path: "#", // Dummy path for About Us
+      path: "#", 
       isDropdown: true,
       dropdownItems: [
         { title: "About Company", path: "/about" },
@@ -38,8 +38,7 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className="w-screen h-[85px] absolute z-[10] top-0 flex items-center justify-between px-2 lg:px-12  xl:px-16 !overflow-hidden">
-      {/** Laptop - logo */}
+    <nav className="w-screen h-[85px] absolute z-[10] top-0 flex items-center justify-between px-2 lg:px-12 xl:px-16 overflow-visible">
       <div className="hidden lg:flex">
         <Buttons
           onClick={() => navigate("/")}
@@ -55,13 +54,12 @@ const Navigation = () => {
         </Buttons>
       </div>
 
-      {/** Laptop - menu items */}
       <div className="h-full hidden lg:flex">
-        <ul className="flex justify-center items-center space-x-10 text-base text-[#FFFAF6] h-full">
+        <ul className="flex justify-center items-center space-x-10 text-base lg:text-lg text-[#FFFAF6] h-full">
           {MenuItemData.map((data, index) => (
             <li 
               key={index} 
-              className="relative decoration-none"
+              className="relative"
               onMouseLeave={closeDropdown}
             >
               <NavLink
@@ -77,15 +75,15 @@ const Navigation = () => {
                 {data.isDropdown && (
                   <Icon 
                     icon="akar-icons:chevron-down"
-                    className="ml-2"
+                    className="ml-2 w-6 h-6"
                   />
                 )}
               </NavLink>
 
               {data.isDropdown && aboutDropdown && (
-                <ul className="absolute top-full left-0 mt-2 w-full h-full bg-white text-black shadow-lg rounded-md">
+                <ul className="absolute top-full left-0 mt-2 w-[200px] bg-secondary-600 text-white shadow-lg rounded-md z-50">
                   {data.dropdownItems.map((item, idx) => (
-                    <li key={idx} className="px-4 py-2 hover:bg-gray-100">
+                    <li key={idx} className="px-4 py-4 hover:bg-secondary-500"> {/* Increased padding */}
                       <NavLink 
                         to={item.path}
                         className={({ isActive }) =>
@@ -106,8 +104,7 @@ const Navigation = () => {
         </ul>
       </div>
 
-      {/** mobile - menu items */}
-      <div className="h-full w-full lg:hidden flex">
+      <div className="h-full w-full lg:hidden flex overflow-visible">
         <ul className="w-full flex justify-around items-center text-sm md:text-base text-[#FFFAF6] h-full">
           {MenuItemData.map((data, index) => (
             <li key={index} className="">
@@ -118,26 +115,41 @@ const Navigation = () => {
                     ? "flex border-b-[#EE5170] border-b-2 cursor-pointer py-4 px-3 text-[#EE5170] bg-[#36323E] bg-opacity-40"
                     : "flex border-b-2 border-b-transparent cursor-pointer py-4 px-3 hover:border-b-[#EE5170]"
                 }
+                onClick={data.isDropdown ? toggleDropdown : closeDropdown}
               >
                 {data.title}
+                {data.isDropdown && (
+                  <Icon 
+                    icon="akar-icons:chevron-down"
+                    className="ml-2"
+                  />
+                )}
               </NavLink>
+
+              {data.isDropdown && aboutDropdown && (
+                <ul className="absolute top-full left-0 mt-2 w-[150px] bg-secondary-600 text-white shadow-lg rounded-md z-50">
+                  {data.dropdownItems.map((item, idx) => (
+                    <li key={idx} className="px-4 py-3 hover:bg-secondary-500"> {/* Increased padding */}
+                      <NavLink 
+                        to={item.path}
+                        className={({ isActive }) =>
+                          isActive
+                            ? "block text-[#EE5170]"
+                            : "block"
+                        }
+                        onClick={closeDropdown}
+                      >
+                        {item.title}
+                      </NavLink>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </li>
           ))}
-          
-          {/** mobile - action btn */}
-          <div className="lg:hidden flex">
-            <Buttons
-              variant="default"
-              className="font-[Roboto-Medium] text-[12.96px] md:text-[15.96px] flex items-center justify-center gap-[5px] rounded-lg h-max"
-              onClick={() => navigate("/donate")}
-            >
-              Donate
-            </Buttons>
-          </div>
         </ul>
       </div>
 
-      {/** action button */}
       <div className="hidden lg:flex">
         <Buttons
           variant="default"

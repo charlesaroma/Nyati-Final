@@ -3,13 +3,12 @@ import { NavLink } from "react-router-dom";
 import { Icon } from "@iconify/react";
 import styled from "styled-components";
 import Buttons from "../../2-Components/Buttons/Buttons";
-import Metadata from '../../1-Assets/data/web_metadata.json'
+import Metadata from "../../1-Assets/data/web_metadata.json";
 
 const obj = Metadata;
 const result = obj[Object.keys(obj)[0]];
 const HeroBg = result.content[1].files[4];
 const Logo2 = result.content[2].files[1];
-
 
 const HHero = ({ scrollFunc }) => {
   return (
@@ -37,8 +36,8 @@ const HHero = ({ scrollFunc }) => {
           {/** subtext & buttons */}
           <div className="box-border flex flex-col gap-[16px] items-center max-w-[441px] xl:gap-[40px]">
             <p className="font-light font-[Inter-Light] text-[13px] md:text-[14px] xl:text-base leading-[20px] text-center text-[#FFFFFE]">
-              Stream Originals like Tuko Pamoja Docuseries, Windows of Hope,
-              Fair Play and Fate
+              Stream Originals like <span className="italic font-medium">Tuko Pamoja</span> Docuseries, <span className="italic font-medium">Windows of Hope</span>,
+              <span className="italic font-medium">&nbsp;Fair Play</span> and <span className="italic font-medium">Fate</span>
             </p>
 
             <div className="flex flex-row w-full flex-wrap items-center justify-center gap-[20px]">
