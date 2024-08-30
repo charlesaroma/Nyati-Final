@@ -13,7 +13,8 @@
           "date":"September 11, 2006",
           "month+year":"September, 2006",
           "author": "By IRIN News",
-          "source":"IRIN News"
+          "source":"IRIN News",
+          "category":"Articles"
     },
     {
         "_id": {
@@ -28,7 +29,8 @@
           "title":"The Ugandan Film Industry is Growing Fast",
           "date":"July 22, 2006",
           "author": "By David Tumusiime And Steven Tendo",
-          "source":"New Vision"
+          "source":"New Vision",
+          "category":"Articles"
     },   
     {
         "_id": {
@@ -43,7 +45,8 @@
           "title": "Fate Brings Another Ugandan Film",
           "date":"July 30, 2006",
           "author": "By Gaaki Kigambo",
-          "source":"The Monitor"
+          "source":"The Monitor",
+          "category":"Articles"
     },
     {
         "_id": {
@@ -58,7 +61,8 @@
           "title": "Well done Cindy!",
           "date":"December 29 2007",
           "author": "by Sarah Nalubega",
-          "source":"New Vision"
+          "source":"New Vision",
+          "category":"Articles"
     },
     {
         "_id": {
@@ -73,7 +77,8 @@
           "title": "25 must-watch Ugandan films of all time",
           "date":" October 18, 2013",
           "author": "by Polly Kamukama",
-          "source":"The Critic"
+          "source":"The Critic",
+          "category":"Articles"
     },
     {
         "_id": {
@@ -87,7 +92,8 @@
           "imageUrl":"https://ik.imagekit.io/nyatimot/Pages/Articles/Screenshot%202024-08-19%20at%2017.27.45.png?updatedAt=1724077706137",
           "title": "Fate (2006 film)",
           "date":" - ",
-          "author": "Wikipedia"
+          "author": "Wikipedia",
+          "category":"Articles"
     },
     {
         "_id": {
@@ -102,7 +108,8 @@
           "title": "Uganda: No Country for Filmmakers",
           "date":"May 26, 2008",
           "author": " - ",
-          "source":"The East African"
+          "source":"The East African",
+          "category":"Articles"
     },
     {
         "_id": {
@@ -117,6 +124,7 @@
           "title": "Fair Play",
           "date":"",
           "author": "Joshua Kimbareeba",
-          "source":"The East African"
+          "source":"The East African",
+          "category":"Articles"
     }
 ]

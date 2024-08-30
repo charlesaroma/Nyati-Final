@@ -1,0 +1,26 @@
+[
+   {
+    "_id": {
+        "$oid": "66504774b30afd15ac294f77"
+      },
+    "createdBy": "Joshua Kimbareeba",
+    "film-title": "Fair Play",
+    "event-date": "12 March, 2010",
+    "event-caption": "Official Premiere Date",
+    "event-overview": "The feature film premiered in 2010 at the Uganda National Theatre, Kampala. It also screened in Cinemas for one week and on cable television (DStv African Movies channels).",
+    "event-images":[],
+    "arc-link":"/in-archives"
+   },
+   {
+    "_id": {
+        "$oid": "6653925ab30afd15ac294f7a"
+      },
+    "createdBy": "Joshua Kimbareeba",
+    "film-title": "Tuko Pamoja",
+    "event-date": "12 March, 2010",
+    "event-caption": "Busoga Segment",
+    "event-overview": "The feature film premiered in 2010 at the Uganda National Theatre, Kampala. It also screened in Cinemas for one week and on cable television (DStv African Movies channels).",
+    "event-images":[],
+    "arc-link":"/in-archives"
+   }
+]
