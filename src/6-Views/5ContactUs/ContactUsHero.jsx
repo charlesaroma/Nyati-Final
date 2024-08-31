@@ -20,7 +20,7 @@ const ContactUsHero = ({ scrollfunc }) => {
       </div>
       <Buttons
         onClick={() => scrollfunc()}
-        variant="ghost"
+        variant="disabled"
         className="text-whites-40 absolute left-0 right-0 w-[121px] mx-auto flex flex-col items-center bottom-1 space-y-1"
       >
         <p className="font-[Inter-Regular] text-sm lg:text-base">Scroll Down</p>

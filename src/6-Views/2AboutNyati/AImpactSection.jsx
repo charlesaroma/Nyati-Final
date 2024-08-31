@@ -27,6 +27,8 @@ const AImpactSection = () => {
           country and Africa at large.
         </p>
       </div>
+      {/* Title */}
+      {/* Themes Section */}
     </div>
   );
 }
