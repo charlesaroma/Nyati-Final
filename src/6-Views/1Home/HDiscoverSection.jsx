@@ -21,7 +21,7 @@ const HDiscoverSection = ({ nRef }) => {
           <div className="flex flex-col font-[Inter-Medium] text-[14px]  md:text-base text-justify sm:text-center md:text-center lg:text-[18px] lg:text-left 2xl:text-lg text-[#FFFAF6B2] gap-[20px] md:leading-[26px]">
             <p>
               Nyati (
-              <span className="text-[#EE5070]">Buffalo in Kiswahili</span>)
+              <span className="text-[#EE5070]">Buffalo</span>)
               Motion Pictures (NMP) is a leading film and video production
               powerhouse in Uganda, East Africa, established in 2005.
             </p>
@@ -36,9 +36,9 @@ const HDiscoverSection = ({ nRef }) => {
 
           {/* button */}
           <NavLink to="/about">
-          <Buttons className="bg-[#1A171E] rounded-lg w-full md:max-w-[347px] h-[64px] flex items-center justify-center text-[#EE5070] text-[13.96px] md:text-[16px] uppercase italic font-bold hover:text-primary-500 mx-auto lg:mx-0">
-            Discover more about Company
-          </Buttons>
+            <Buttons className="bg-[#1A171E] rounded-lg w-full md:max-w-[347px] h-[64px] flex items-center justify-center text-[#EE5070] text-[13.96px] md:text-[16px] uppercase italic font-bold hover:text-primary-500 mx-auto lg:mx-0">
+              Discover more about Company
+            </Buttons>
           </NavLink>
         </div>
         {/* image stack */}

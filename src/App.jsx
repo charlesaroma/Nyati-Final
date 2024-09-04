@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./6-Views/1Home/HomePage";
 import './App.css'
@@ -11,22 +11,29 @@ import DonatePage from "./6-Views/6Donate/DonatePage.jsx";
 import FilmPage from "./6-Views/7Films/FilmPage.jsx";
 import FilmDetailPage from "./6-Views/8FilmDetail/FilmDetailPage.jsx";
 import Team from "./6-Views/9Team/1Team.jsx";
+import Archive from "./6-Views/10InternetArchive/1InternetArchive.jsx";
+import Collections from "./6-Views/10InternetArchive/4MoreCollections.jsx";
+import ScrollToTop from "./ScrollToTop.jsx"; // Import ScrollToTop
 
 function App() {
   return (
     <StyledEngineProvider injectFirst>
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/services" element={<ServicesPage />} />
-          <Route path="/services/conquerordie" element={<ProdDetailPage />} />
-          <Route path="/contact" element={<ContactUsPage />} />
-          <Route path="/donate" element={<DonatePage />} />
-          <Route path="/film" element={<FilmPage />} />
-          <Route path="/film/:filmid" element={<FilmDetailPage />} />
-          <Route path="/team" element={<Team />} />
-        </Routes>
+        <ScrollToTop> {/* Wrap Routes with ScrollToTop */}
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/services" element={<ServicesPage />} />
+            <Route path="/services/conquerordie" element={<ProdDetailPage />} />
+            <Route path="/contact" element={<ContactUsPage />} />
+            <Route path="/donate" element={<DonatePage />} />
+            <Route path="/film" element={<FilmPage />} />
+            <Route path="/film/:filmid" element={<FilmDetailPage />} />
+            <Route path="/team" element={<Team />} />
+            <Route path="/internetarchive" element={<Archive />} />
+            <Route path="/Morecollections" element={<Collections />} />
+          </Routes>
+        </ScrollToTop>
       </BrowserRouter>
     </StyledEngineProvider>
   );

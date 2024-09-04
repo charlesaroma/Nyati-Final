@@ -1,0 +1,130 @@
+[
+    {
+        "_id": {
+            "$oid": "66504774b30afd15ac294f77"
+          },
+          "createdBy": "Joshua Kimbareeba",
+          "a-tag-status": true,
+          "a-tag-link": "https://www.thenewhumanitarian.org/news/2006/09/11/hivaids-comes-big-screen",
+          "ref-name":"Fair Play",
+          "ref-path":"/film/66504774b30afd15ac294f77",
+          "imageUrl":"https://assets.thenewhumanitarian.org/s3fs-public/styles/responsive_medium_2x/public/images/20069115.jpg.webp?itok=hCFjZLtZ",
+          "title": "HIV/AIDS comes to the big screen",
+          "date":"September 11, 2006",
+          "month+year":"September, 2006",
+          "author": "By IRIN News",
+          "source":"IRIN News",
+          "category":"Articles"
+    },
+    {
+        "_id": {
+            "$oid": "3090c35dea6f44a48a3ab2d9"
+          },
+          "createdBy": "Joshua Kimbareeba",
+          "a-tag-status": true,
+          "a-tag-link": "https://allafrica.com/stories/200607310585.html",
+          "ref-name":"Nyati Motion Pictures",
+          "ref-path":"/",
+          "imageUrl":"https://ik.imagekit.io/nyatimot/Pages/Articles/no-image.png",
+          "title":"The Ugandan Film Industry is Growing Fast",
+          "date":"July 22, 2006",
+          "author": "By David Tumusiime And Steven Tendo",
+          "source":"New Vision",
+          "category":"Articles"
+    },   
+    {
+        "_id": {
+            "$oid": "5e0e54341d14468eb7915bd4"
+          },
+          "createdBy": "Joshua Kimbareeba",
+          "a-tag-status": true,
+          "a-tag-link": "https://allafrica.com/stories/200607310585.html",
+          "ref-name":"Fate",
+          "ref-path":"/film/665383c3b30afd15ac294f79",
+          "imageUrl":"https://ik.imagekit.io/nyatimot/Pages/Articles/wp9123810b_06.png?updatedAt=1724072031869",
+          "title": "Fate Brings Another Ugandan Film",
+          "date":"July 30, 2006",
+          "author": "By Gaaki Kigambo",
+          "source":"The Monitor",
+          "category":"Articles"
+    },
+    {
+        "_id": {
+            "$oid": "1899f7f5b6f349e0b46a8b6c"
+          },
+          "createdBy": "Joshua Kimbareeba",
+          "a-tag-status": true,
+          "a-tag-link": "https://www.newvision.co.ug/new_vision/news/1157582/-cindy",
+          "ref-name":"Fate",
+          "ref-path":"/film/665383c3b30afd15ac294f79",
+          "imageUrl":"https://ik.imagekit.io/nyatimot/Pages/Articles/no-image.png",
+          "title": "Well done Cindy!",
+          "date":"December 29 2007",
+          "author": "by Sarah Nalubega",
+          "source":"New Vision",
+          "category":"Articles"
+    },
+    {
+        "_id": {
+            "$oid": "9b0ec90cc9cf466896edf5e7"
+          },
+          "createdBy": "Joshua Kimbareeba",
+          "a-tag-status": true,
+          "a-tag-link": "",
+          "ref-name":"Nyati Motion Pictures",
+          "ref-path":"/",
+          "imageUrl":"https://ik.imagekit.io/nyatimot/Pages/Articles/a-scene-from-the-last-king-of-scotland-the-hollywood-movie-is-inspired-by-a-ugandan-story3.webp",
+          "title": "25 must-watch Ugandan films of all time",
+          "date":" October 18, 2013",
+          "author": "by Polly Kamukama",
+          "source":"The Critic",
+          "category":"Articles"
+    },
+    {
+        "_id": {
+            "$oid": "1eaeb795639c4e1bab36f031"
+          },
+          "createdBy": "Joshua Kimbareeba",
+          "a-tag-status": true,
+          "a-tag-link": "https://en.wikipedia.org/wiki/Fate_(2006_film)",
+          "ref-name":"Fate",
+          "ref-path":"/film/665383c3b30afd15ac294f79",
+          "imageUrl":"https://ik.imagekit.io/nyatimot/Pages/Articles/Screenshot%202024-08-19%20at%2017.27.45.png?updatedAt=1724077706137",
+          "title": "Fate (2006 film)",
+          "date":" - ",
+          "author": "Wikipedia",
+          "category":"Articles"
+    },
+    {
+        "_id": {
+            "$oid": "e915fd9c618041ff95ae030e"
+          },
+          "createdBy": "Joshua Kimbareeba",
+          "a-tag-status": true,
+          "a-tag-link": "https://web.archive.org/web/20221203053500/https://www.balancingact-africa.com/news/broadcast-en/11188/uganda-no-country-for-filmmakers#expand",
+          "ref-name":"Fate",
+          "ref-path":"/film/665383c3b30afd15ac294f79",
+          "imageUrl":"https://assets.thenewhumanitarian.org/s3fs-public/styles/responsive_medium_2x/public/images/20069115.jpg.webp?itok=hCFjZLtZ",
+          "title": "Uganda: No Country for Filmmakers",
+          "date":"May 26, 2008",
+          "author": " - ",
+          "source":"The East African",
+          "category":"Articles"
+    },
+    {
+        "_id": {
+            "$oid": "fc38523f2f32475c8076f2cf"
+          },
+          "createdBy": "Joshua Kimbareeba",
+          "a-tag-status": true,
+          "a-tag-link": "",
+          "ref-name":"Nyati Motion Pictures",
+          "ref-path":"/",
+          "imageUrl":"https://assets.thenewhumanitarian.org/s3fs-public/styles/responsive_medium_2x/public/images/20069115.jpg.webp?itok=hCFjZLtZ",
+          "title": "Fair Play",
+          "date":"",
+          "author": "Joshua Kimbareeba",
+          "source":"The East African",
+          "category":"Articles"
+    }
+]

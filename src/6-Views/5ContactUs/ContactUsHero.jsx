@@ -1,7 +1,5 @@
 import React from 'react'
 import styled from "styled-components";
-
-import Buttons from '../../2-Components/Buttons/Buttons';
 import { Icon } from "@iconify/react";
 import Metadata from '../../1-Assets/data/web_metadata.json'
 
@@ -18,10 +16,9 @@ const ContactUsHero = ({ scrollfunc }) => {
           Connect with us
         </h1>
       </div>
-      <Buttons
+      <div
         onClick={() => scrollfunc()}
-        variant="ghost"
-        className="text-whites-40 absolute left-0 right-0 w-[121px] mx-auto flex flex-col items-center bottom-1 space-y-1"
+        className="text-whites-40 absolute left-0 right-0 w-[121px] mx-auto flex flex-col items-center bottom-1 space-y-1 cursor-pointer"
       >
         <p className="font-[Inter-Regular] text-sm lg:text-base">Scroll Down</p>
         <Icon
@@ -31,7 +28,7 @@ const ContactUsHero = ({ scrollfunc }) => {
           height="2rem"
           style={{ color: "#E8CFD2" }}
         />
-      </Buttons>
+      </div>
     </HeroContent>
   );
 };

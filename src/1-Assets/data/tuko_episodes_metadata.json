@@ -125,7 +125,13 @@
       "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S3%20-%20Busoga/Backdrops/Screenshot%202024-05-13%20at%2023.33.30.png?updatedAt=1721040848193",
       "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S3%20-%20Busoga/Backdrops/Screenshot%202024-05-13%20at%2023.34.17.png?updatedAt=1721041143311",
       "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S3%20-%20Busoga/Backdrops/Screenshot%202024-05-13%20at%2023.35.18.png?updatedAt=1721041251785"
+<<<<<<< HEAD
 ]},
+=======
+    ]
+  
+  },
+>>>>>>> master
   {
     "_id": {
       "$oid": "6654943936470e427423ebf5"

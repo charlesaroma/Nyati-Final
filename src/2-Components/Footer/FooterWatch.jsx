@@ -1,7 +1,7 @@
 import React from "react";
 import Buttons from "../Buttons/Buttons";
 import { Icon } from "@iconify/react";
-import Metadata from '../../1-Assets/data/web_metadata.json'
+import Metadata from "../../1-Assets/data/web_metadata.json";
 
 const obj = Metadata;
 const result = obj[Object.keys(obj)[0]];
@@ -19,9 +19,14 @@ const FooterWatch = () => {
 
         <div className=" flex flex-col justify-center  mx-auto my-2 md:my-4 text-center md:text-left">
           <h1 className="text-whites-40 text-[25px] font-bold leading-tight md:text-4xl md:leading-tight lg:text-5xl lg:leading-tight  2xl:text-7xl 2xl:leading-tight tracking-wider text-center lg:text-start">
-            Watch Anytime.
+            Watch <span className="block">Anytime.</span> 
             <span className="ps-2 md:px-0 md:block ">Anywhere.</span>
           </h1>
+
+          <p className="text-[#FFFAF6] italic mx-auto mt-4 max-w-3xl sm:px-0 md:px-0 lg:px-0 capitalize font-[Inter-Medium] sm:text-sm/relaxed text-opacity-70 lg:text-xl tracking-tight">
+            Download Nyatiflix, or subscribe to our YouTube channel to see the
+            trailers...
+          </p>
 
           <div className="flex w-full gap-x-[20px] mt-[20px]">
             <Buttons className="flex w-[50%] lg:gap-[6px]  items-center h-[52px] items-between lg:justify-center gap-x-[9.95px] lg:px-[12px] rounded-md border bg-transparent">

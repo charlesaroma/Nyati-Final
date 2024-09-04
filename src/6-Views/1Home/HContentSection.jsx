@@ -2,7 +2,7 @@ import React from "react";
 import Buttons from "../../2-Components/Buttons/Buttons";
 import { NavLink } from "react-router-dom";
 
-const postersImg = "https://ik.imagekit.io/alero/Nyati_Films/website-metadata/Universal+Home/images/CTA_%20posters.png?updatedAt=1721135692198";
+const postersImg = "https://ik.imagekit.io/nyatimot/Pages/Universal+Home/images/Contribute%20to%20%20Content%20Creation_image.png?updatedAt=1724268788409";
 
 const HContentSection = () => {
   return (
