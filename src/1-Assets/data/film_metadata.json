@@ -1221,7 +1221,6 @@
               "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S10%20-%20Lado%20Enclave/Backdrops/Screenshot%202024-05-14%20at%2001.09.52.png?updatedAt=1721037628395"
             ]
           },
-<<<<<<< HEAD
           "seasonCounter": "1",
           "episodeCounter": "12",
           "episodeTitle": "Kingdoms of the Mountains of Moon: Bakonzo, Bamba and Basongora",
@@ -1256,46 +1255,6 @@
         {
           "_id": {
             "$oid": "665494c536470e427423ebfe"
-=======
-          {
-            "_id": {
-              "$oid": "665494a836470e427423ebfc"
-            },
-            "seriesId": {
-              "$oid": "6653925ab30afd15ac294f7a"
-            },
-            "seasonCounter": "1",
-            "episodeCounter": "11",
-            "episodeTitle": "(Re)-emergent/Breakaway states: Bunyala, Buruuli & Kooki",
-            "YearOfProduction": "2024",
-            "rated": "PG-13",
-            "released": "18 May 2024",
-            "runtime": "",
-            "directors": ["Cindy Magara"],
-            "producers": ["Cindy Magara"],
-            "writers": ["Cindy Magara"],
-            "plotSummary": "‘To be or not to be…’ comes alive here. At a time when nations are aspiring to federate, one wonders why the chiefdoms want to create independent Kingdoms. The answer is in history: even the Bugandas and Bunyoros (greatest kingdoms in Uganda) were formed at a certain time.",
-            "audioLanguages": [
-              {
-                "iso_639_1": "en",
-                "name": "English"
-              }
-            ],
-            "subtitleLanguages": [],
-            "filmType": "episode",
-            "youtubeTrailer": "https://www.youtube.com/watch?v=sbey4TNLNh0",
-            "localTrailer": "https://nyat-streams.fra1.cdn.digitaloceanspaces.com/films/TukoPamoja(2024)/Episodes-Segments/S11-BreakAwayKingdoms/Trailer/Breakaway%20States%20Trailer%20EMB.mp4",
-            "fullVideoLink": " ",
-            "posters": [
-              "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Improved_Nyati_Thumbnails/Breakaway%20states.png?updatedAt=1722657148827"
-            ],
-            "backdrops": [
-              "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S11%20-%20Break%20Away%20Kingdoms/Backdrops/Screenshot%202024-05-20%20at%2023.14.08.png?updatedAt=1721037150452",
-              "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S11%20-%20Break%20Away%20Kingdoms/Backdrops/Screenshot%202024-05-20%20at%2023.16.42.png?updatedAt=1721036999575",
-              "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S11%20-%20Break%20Away%20Kingdoms/Backdrops/Screenshot%202024-05-20%20at%2023.13.36.png?updatedAt=1721036937884",
-              "https://ik.imagekit.io/alero/Nyati_Films/films-metadata/Tuko%20Pamoja(2024)/Episodes-Segments/S11%20-%20Break%20Away%20Kingdoms/Backdrops/Screenshot%202024-05-20%20at%2023.14.23.png?updatedAt=1721036750726"
-            ]
->>>>>>> master
           },
           {
             "_id": {
