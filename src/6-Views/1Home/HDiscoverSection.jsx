@@ -26,9 +26,9 @@ const HDiscoverSection = ({ nRef }) => {
               powerhouse in Uganda, East Africa, established in 2005.
             </p>
             <p>
-              NMP has produced several notable films: Fate (2006), Fair Play
-              (2010), and Windows of Hope(2011) in the feature film category,
-              and A Book for Every Child (2013) in the documentary category.
+              NMP has produced several notable films: <span className="italic font-bold">Fate</span> (2006), <span className="italic font-bold">Fair Play</span>
+              (2010), and <span className="italic font-bold">Windows of Hope</span> (2011) in the feature film category,
+              and <span className="italic font-bold">A Book for Every Child</span> (2013) in the documentary category.
               Currently, NMP is producing Tuko Pamoja, an exciting docuseries
               exploring Uganda’s 19th century.
             </p>

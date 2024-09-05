@@ -27,7 +27,7 @@ const HHero = ({ scrollFunc }) => {
             <h1 className="font-bold font-[Inter-Bold] text-[30px] sm:text-4xl md:text-[38px] xl:text-5xl 2xl:text-6xl md:leading-tight text-[#F2F2F2] text-center">
               The African Griot
             </h1>
-            <h2 className="font-[Inter-Light]  italic text-[14px] md:text-base xl:text-lg  text-[#FFFFFE] text-center">
+            <h2 className="font-[Inter-Light] text-[14px] md:text-base xl:text-lg  text-[#FFFFFE] text-center">
               <NavLink to="/about" className="hover:text-[#E8CFD2]">
                 Learn more about Nyati Motion Pictures
               </NavLink>
@@ -35,9 +35,9 @@ const HHero = ({ scrollFunc }) => {
           </div>
           {/** subtext & buttons */}
           <div className="box-border flex flex-col gap-[16px] items-center max-w-[441px] xl:gap-[40px]">
-            <p className="font-light font-[Inter-Light] text-[13px] md:text-[14px] xl:text-base leading-[20px] text-center text-[#FFFFFE]">
-              Stream Originals like <span className="italic font-medium">Tuko Pamoja</span> Docuseries, <span className="italic font-medium">Windows of Hope</span>,
-              <span className="italic font-medium">&nbsp;Fair Play</span> and <span className="italic font-medium">Fate</span>
+            <p className=" font-[Inter-Light] text-[13px] md:text-[14px] xl:text-base leading-[20px] text-center text-[#FFFFFE]">
+              Stream Originals like <span className="italic font-medium">Tuko Pamoja</span> Docuseries, <span className="italic font-bold">Windows of Hope</span>,
+              <span className="italic font-[700]">&nbsp;Fair Play</span> and <span className="italic font-bold">Fate</span>
             </p>
 
             <div className="flex flex-row w-full flex-wrap items-center justify-center gap-[20px]">
